@@ -1547,7 +1547,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 50rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1672,7 +1672,7 @@ input, select, textarea {
 
 .BC img:hover{
 	transition: 0.5s;
-	transform: scale(2.1);
+	transform: scale(1.5);
 }
 
 .BI{
@@ -1692,6 +1692,35 @@ input, select, textarea {
 	  width: 0
 	}
   }
+
+/* Skill grid*/
+
+.skills{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+	grid-column: 1;
+	grid-row: 1;
+  }
+
+.two {
+	grid-column: 1;
+	grid-row: 2;
+  }
+
+.three {
+	grid-column: 2;
+	grid-row: 2;
+  }
+  .four {
+	grid-column: 2;
+	grid-row: 1;
+  }
+
 	  
 /* .BI img:hover{
 	transition: 0.5s;
