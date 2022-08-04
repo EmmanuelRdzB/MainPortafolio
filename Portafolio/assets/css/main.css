@@ -1663,6 +1663,9 @@ input, select, textarea {
 			opacity: 0;
 		}
 
+
+/* Image Hover */
+
 .BC{
 	display: block; 
 	margin-left: auto; 
@@ -1679,6 +1682,8 @@ input, select, textarea {
 	display: flex; 
 	justify-content: space-around;
 }
+
+/* Typing Efect */
 
 .typing {
 	width: 22ch;
@@ -1721,6 +1726,37 @@ input, select, textarea {
 	grid-row: 2;
   }
 
+/* ME photo */
+
+.me{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 80%;
+}
+
+@media screen and (max-width: 480px){
+	.me{
+		width: 75%;
+	}
+}
+
+
+/* About me continuing */
+
+.MB{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+	text-align: justify;
+}
+
+@media screen and (max-width:480px){
+	.MB{
+		display: block;
+	}
+}
 	  
 /* .BI img:hover{
 	transition: 0.5s;
